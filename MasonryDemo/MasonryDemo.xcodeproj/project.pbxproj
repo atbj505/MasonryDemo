@@ -22,7 +22,6 @@
 		57CBBDC91A2C99DE00753214 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CBBDBE1A2C99DE00753214 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		57CBBDCA1A2C99DE00753214 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CBBDC01A2C99DE00753214 /* View+MASAdditions.m */; };
 		57CBBDCC1A2C9A2500753214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CBBDCB1A2C9A2500753214 /* Default-568h@2x.png */; };
-		57CBBDCF1A2CA19700753214 /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CBBDCE1A2CA19700753214 /* MyWebView.m */; };
 		57CBE9FF1A2DF2470003486A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57CBE9C71A2DF2470003486A /* InfoPlist.strings */; };
 		57CBEA001A2DF2470003486A /* pop-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57CBE9C91A2DF2470003486A /* pop-Info.plist */; };
 		57CBEA011A2DF2470003486A /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57CBE9CE1A2DF2470003486A /* POPAnimatableProperty.mm */; };
@@ -91,8 +90,6 @@
 		57CBBDC01A2C99DE00753214 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
 		57CBBDC11A2C99DE00753214 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		57CBBDCB1A2C9A2500753214 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		57CBBDCD1A2CA19700753214 /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
-		57CBBDCE1A2CA19700753214 /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
 		57CBE9C81A2DF2470003486A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57CBE9C91A2DF2470003486A /* pop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pop-Info.plist"; sourceTree = "<group>"; };
 		57CBE9CA1A2DF2470003486A /* pop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pop-Prefix.pch"; sourceTree = "<group>"; };
@@ -195,8 +192,6 @@
 				57CBBD891A2C99B100753214 /* AppDelegate.m */,
 				57CBBD8B1A2C99B100753214 /* ViewController.h */,
 				57CBBD8C1A2C99B100753214 /* ViewController.m */,
-				57CBBDCD1A2CA19700753214 /* MyWebView.h */,
-				57CBBDCE1A2CA19700753214 /* MyWebView.m */,
 				57CBBDCB1A2C9A2500753214 /* Default-568h@2x.png */,
 				57CBBD911A2C99B100753214 /* Images.xcassets */,
 				57CBBD841A2C99B100753214 /* Supporting Files */,
@@ -438,7 +433,6 @@
 				57CBBDC71A2C99DE00753214 /* MASViewConstraint.m in Sources */,
 				57CBEA081A2DF2470003486A /* POPBasicAnimation.mm in Sources */,
 				57CBBDC21A2C99DE00753214 /* MASCompositeConstraint.m in Sources */,
-				57CBBDCF1A2CA19700753214 /* MyWebView.m in Sources */,
 				57CBEA0C1A2DF2470003486A /* POPGeometry.mm in Sources */,
 				57CBBDC81A2C99DE00753214 /* NSArray+MASAdditions.m in Sources */,
 				57CBBD8D1A2C99B100753214 /* ViewController.m in Sources */,
