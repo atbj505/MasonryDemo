@@ -63,7 +63,11 @@
     /*
      case5:cell中等间距控件
      */
-    [self cellEqualWidth];
+    //[self cellEqualWidth];
+    /*
+     case6:imageView
+     */
+    [self imageView];
 }
 - (void)masCenter{
     UIView *view = [[UIView alloc]init];
@@ -206,5 +210,16 @@ static const int LABELHEIGHT = 30;
         make.height.mas_equalTo(@(LABELHEIGHT));
         make.centerX.mas_equalTo(weakSelf.btn3.mas_centerX);
     }];
+}
+
+- (void) imageView {
+    UIImageView *imageView = [[UIImageView alloc] init];
+    [self.view addSubview:imageView];
+    
+    [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
+    
+    imageView.image = [UIImage imageNamed:@"icon_头像_个人主页_340@2x.png"];
 }
 @end
