@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Masonry.h"
+#import "testView.h"
 
 @interface ViewController ()
 
@@ -67,7 +68,11 @@
     /*
      case6:imageView
      */
-    [self imageView];
+    //[self imageView];
+    /*
+     case7:等宽imageView
+     */
+    [self equalWidthimageView];
 }
 - (void)masCenter{
     UIView *view = [[UIView alloc]init];
@@ -215,11 +220,53 @@ static const int LABELHEIGHT = 30;
 - (void) imageView {
     UIImageView *imageView = [[UIImageView alloc] init];
     [self.view addSubview:imageView];
+    WS(weakSelf);
     
     [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
+        make.edges.equalTo(weakSelf.view);
     }];
     
     imageView.image = [UIImage imageNamed:@"icon_头像_个人主页_340@2x.png"];
+}
+
+- (void)equalWidthimageView {
+    UIImageView *image1 = [[UIImageView alloc] init];
+    image1.backgroundColor = [UIColor redColor];
+    UIImageView *image2 = [[UIImageView alloc] init];
+    image2.backgroundColor = [UIColor redColor];
+    UIImageView *image3 = [[UIImageView alloc] init];
+    image3.backgroundColor = [UIColor redColor];
+    
+    [self.view addSubview:image1];
+    [self.view addSubview:image2];
+    [self.view addSubview:image3];
+    
+    WS(weakSelf);
+    
+    [image1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(weakSelf.view.mas_top);
+        make.left.mas_equalTo(weakSelf.view.mas_left);
+        //make.width.mas_equalTo(@(tempSize.width));
+        //make.height.mas_equalTo(@(tempSize.height));
+    }];
+    
+    [image2 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(weakSelf.view.mas_top);
+        make.centerX.mas_equalTo(weakSelf.view.mas_centerX);
+        //make.width.mas_equalTo(@(tempSize.width));
+        //make.height.mas_equalTo(@(tempSize.height));
+    }];
+    
+    [image3 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(weakSelf.view.mas_top);
+        make.right.mas_equalTo(weakSelf.view.mas_right);
+        //make.width.mas_equalTo(@(tempSize.width));
+        //make.height.mas_equalTo(@(tempSize.height));
+    }];
+    
+    image1.image = [UIImage imageNamed:@"btn_奖罚_normal"];
+    image2.image = [UIImage imageNamed:@"btn_奖罚_normal"];
+    image3.image = [UIImage imageNamed:@"btn_奖罚_normal"];
+    
 }
 @end

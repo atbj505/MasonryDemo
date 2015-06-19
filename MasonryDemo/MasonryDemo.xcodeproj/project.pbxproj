@@ -42,6 +42,8 @@
 		57CBEA101A2DF2470003486A /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57CBE9F51A2DF2470003486A /* POPSpringAnimation.mm */; };
 		57CBEA111A2DF2470003486A /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57CBE9F91A2DF2470003486A /* POPVector.mm */; };
 		57CBEA121A2DF2470003486A /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57CBE9FC1A2DF2470003486A /* TransformationMatrix.cpp */; };
+		57D2E00E1B33E4A100DF4B59 /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D2E00D1B33E4A100DF4B59 /* testView.m */; };
+		57D2E0101B33E4B200DF4B59 /* testView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D2E00F1B33E4B200DF4B59 /* testView.xib */; };
 		57E12EC41B0D78120060F58D /* icon_头像_个人主页_340@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E12EC31B0D78120060F58D /* icon_头像_个人主页_340@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +148,9 @@
 		57CBE9FD1A2DF2470003486A /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
 		57CBE9FE1A2DF2470003486A /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
 		57CBEA131A2DF5280003486A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		57D2E00C1B33E4A100DF4B59 /* testView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		57D2E00D1B33E4A100DF4B59 /* testView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
+		57D2E00F1B33E4B200DF4B59 /* testView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testView.xib; sourceTree = "<group>"; };
 		57E12EC31B0D78120060F58D /* icon_头像_个人主页_340@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_头像_个人主页_340@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -194,9 +199,12 @@
 				57CBBD891A2C99B100753214 /* AppDelegate.m */,
 				57CBBD8B1A2C99B100753214 /* ViewController.h */,
 				57CBBD8C1A2C99B100753214 /* ViewController.m */,
-				57CBBDCB1A2C9A2500753214 /* Default-568h@2x.png */,
+				57D2E00C1B33E4A100DF4B59 /* testView.h */,
+				57D2E00D1B33E4A100DF4B59 /* testView.m */,
+				57D2E00F1B33E4B200DF4B59 /* testView.xib */,
 				57CBBD911A2C99B100753214 /* Images.xcassets */,
 				57E12EC31B0D78120060F58D /* icon_头像_个人主页_340@2x.png */,
+				57CBBDCB1A2C9A2500753214 /* Default-568h@2x.png */,
 				57CBBD841A2C99B100753214 /* Supporting Files */,
 			);
 			path = MasonryDemo;
@@ -412,6 +420,7 @@
 				57CBBD921A2C99B100753214 /* Images.xcassets in Resources */,
 				57CBE9FF1A2DF2470003486A /* InfoPlist.strings in Resources */,
 				57CBBDCC1A2C9A2500753214 /* Default-568h@2x.png in Resources */,
+				57D2E0101B33E4B200DF4B59 /* testView.xib in Resources */,
 				57E12EC41B0D78120060F58D /* icon_头像_个人主页_340@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +449,7 @@
 				57CBEA0C1A2DF2470003486A /* POPGeometry.mm in Sources */,
 				57CBBDC81A2C99DE00753214 /* NSArray+MASAdditions.m in Sources */,
 				57CBBD8D1A2C99B100753214 /* ViewController.m in Sources */,
+				57D2E00E1B33E4A100DF4B59 /* testView.m in Sources */,
 				57CBEA021A2DF2470003486A /* POPAnimation.mm in Sources */,
 				57CBBD8A1A2C99B100753214 /* AppDelegate.m in Sources */,
 				57CBEA0B1A2DF2470003486A /* POPDecayAnimation.mm in Sources */,

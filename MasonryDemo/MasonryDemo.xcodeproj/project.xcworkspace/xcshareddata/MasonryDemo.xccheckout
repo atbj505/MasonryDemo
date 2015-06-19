@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6AC4E96D-893A-4204-9CFA-D783BE0BD47B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>MasonryDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>99D504E277E02CFC0CCA2210C67D39D4352C290D</key>
 		<string>github.com:atbj505/MasonryDemo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MasonryDemo/MasonryDemo.xcodeproj/project.xcworkspace</string>
+	<string>MasonryDemo/MasonryDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>99D504E277E02CFC0CCA2210C67D39D4352C290D</key>
